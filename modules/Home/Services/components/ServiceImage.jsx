@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import service from '@/public/images/service.png'
+import service from '@/public/images/Service.png'
 
 
 

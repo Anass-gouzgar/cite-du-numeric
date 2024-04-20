@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 const Banner = dynamic(() => import("@/modules/ContactUs/Banner"), {
     loading: () => <div></div>,
   }),
-  ContactUs = dynamic(() => import("@/modules/ContactUs/Contactform"), {
+  ContactUs = dynamic(() => import("@/modules/ContactUs/ContactForm"), {
     loading: () => <div></div>,
   });
 
